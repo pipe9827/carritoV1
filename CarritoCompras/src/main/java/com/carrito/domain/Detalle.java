@@ -39,5 +39,7 @@ public class Detalle implements Serializable{
 	@JoinColumn(name="id_orden_FK")
 	private Orden Orden;
 	
+	private String Prueba1;
+	
 	
 }
